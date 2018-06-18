@@ -2,6 +2,8 @@ import { getMonthDates, getWeekdayDates } from './helpers';
 
 // Infer first day of week === 1 if not listed (dow)
 const locales = {
+  // Hebrew
+  he: { dow: 1, L: 'DD/MM/YYYY' },
   // Arabic
   ar: { dow: 7, L: 'D/\u200FM/\u200FYYYY' },
   // Bulgarian
